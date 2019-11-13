@@ -4,12 +4,12 @@ Recognize LED digits by simple one-hidden layer of neural network
 ## Dataset
 dataset.zip in folder is the original compressed source dataset. After uncompress, program would walk through each sub-folder (also the class) and randomly split them into train, dev and test dataset in temporary folder. Finally, all the saparated dataset would be converted into tfrecords to build a convenient data pipeline for tensorflow.
 
-- Train dataset
-Consist of 2192 images equally from each class
-- Dev dataset
-Consist of 470 images equally from each class
-- Test dataset
-Consist of 475 images equally from each class
+- Train dataset  
+Consists of 2192 images equally from each class
+- Dev dataset  
+Consists of 470 images equally from each class
+- Test dataset  
+Consists of 475 images equally from each class
 
 ## Installation
 1. Build a virtual environment to isolate from system-wide. Assuming the directory name is myproject  
